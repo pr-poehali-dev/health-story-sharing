@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import StoryCard from "@/components/StoryCard";
 
@@ -61,6 +62,7 @@ const mockStories = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
+      <Header />
       <HeroSection />
 
       <section className="py-16 px-4 bg-gray-50">
